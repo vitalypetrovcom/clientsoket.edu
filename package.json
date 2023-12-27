@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "axios": "^1.6.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.89.0",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^11.0.0"
+  },
+  "name": "clientsoket.edu",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
